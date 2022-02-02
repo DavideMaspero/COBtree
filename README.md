@@ -22,7 +22,7 @@ git clone https://github.com/DavideMaspero/COBtree.git
 0. Parameters can be changed by editing the *nextflow.config* file in COBtree directory (plese, do not rename it)
 1. Run the docker image iteratively by specifing as source directory the local **absolute** path where COBtree repository is located. The SCITE inferences are executed in parallel. So, please replace *n_cpus* with the number of CPUs available. 
 ```
-docker run -it --rm --cpus n_cpus --mount type=bind,source=/local-dir-absolute-path/COBtree/,target=/nextflow_runs/ cobtree_img:latest
+docker run -it --rm --cpus n_cpus --mount type=bind,source=/local-dir-absolute-path/COBtree/,target=/nextflow_runs/ dcblab/cobtree_img:latest
 ```
 2. Inside the cobtree_img, move to the nextflow_run directory
 ```
