@@ -11,7 +11,7 @@ git clone https://github.com/DavideMaspero/COBtree.git
 3. Get COBtree docker image. There are two options to do this:
    - Download it from Docker Hub (https://hub.docker.com/u/dcblab)
      ```
-     docker pull dcblab/virmutsig_img:latest
+     docker pull dcblab/cobtree_img:latest
      ```
    - Create it from docker file
      ```
